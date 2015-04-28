@@ -1,5 +1,7 @@
 # http-headers - The HTTP Header parsing library for PHP
 
+[![Build Status](https://travis-ci.org/Trii/http-headers.svg?branch=master)](https://travis-ci.org/Trii/http-headers)
+
 `Accept: text/feedback, application/pull-requests`
 
 SHOULD be interpreted as "*This is a work in progress. Early feedback and pull requests are accepted*"
