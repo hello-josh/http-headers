@@ -21,7 +21,7 @@ use Trii\HTTPHeaders;
 $accept = new HTTPHeaders\Accept('audio/*; q=0.2, audio/basic');
 
 var_dump($accept->isAccepted('audio/mpeg'));
-// bool(false)
+// bool(true)
 
 var_dump($accept->getPreferredType());
 // string(11) "audio/basic"
