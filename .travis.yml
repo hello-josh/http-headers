@@ -8,10 +8,6 @@ php:
 
 sudo: false
 
-cache:
-  directories:
-    - $HOME/.composer/cache
-
 install:
   - composer self-update
   - composer install --prefer-source --no-interaction
