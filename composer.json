@@ -1,6 +1,9 @@
 {
     "name": "trii/http-headers",
     "description": "WTHeaders is a qvalue? Don't worry, we got that for you!",
+	"require": {
+		"php": ">=5.4.0"
+	},
     "require-dev": {
         "phpunit/phpunit": "~4.6"
     },
