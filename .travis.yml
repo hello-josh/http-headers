@@ -16,4 +16,4 @@ install:
   - composer self-update
   - composer install --prefer-source --no-interaction
 
-script: vendor/bin/phpunit
+script: vendor/bin/phpunit -c phpunit-no-logging.xml
