@@ -13,3 +13,9 @@ install:
   - composer install --prefer-source --no-interaction
 
 script: vendor/bin/phpunit -c phpunit-no-logging.xml
+
+# cache vendor dirs
+cache:
+  directories:
+    - vendor
+    - $HOME/.composer/cache
